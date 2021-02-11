@@ -45,10 +45,10 @@ class envioEmail {
         $mail->SMTPAuth = true;
 
         //Usuario que se logea en gmail - hay que usar la misma dirección de email completa
-        $mail->Username = 'andres.alcaraz@politecnicomalaga.com';
+        $mail->Username = 'examen@gmail.com';
 
         //Contraseña de gmail para la SMTP authentication
-        $mail->Password = 'NoLaVoyAPoner...Todavía';
+        $mail->Password = 'estanolasabenadie0123';
 
         //Asignar el 'desde'
         $mail->setFrom('andres.alcaraz@politecnicomalaga.com', 'Tienda Web 3.0');
